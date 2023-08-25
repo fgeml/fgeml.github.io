@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EQ</title>
+    <style>
+        body
+        {   
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: green;
+            font-size: 600%;
+            height: 100vh;
+        }
+        p
+        {
+            display: inline;
+            font-family: monospace;
+            font-weight: bold;
+        }
+        #cur{
+            animation: cursor 1s infinite;
+        }
+        @keyframes cursor {
+            from, to{color:transparent};
+            50% {color:green}
+        }
+    </style>
+</head>
+<body>
+    <div id="txt"><p>AWAITING INPUT</p><p id="cur">_</p></div>
+</body>
+</html>
