@@ -6,14 +6,32 @@
     <style>
         body
         {   
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: black;
-            color: green;
-            font-size: 600%;
+            
+        body
+        {   
+            margin: 0; /*a*/
+            display: flex; /*r*/
+            justify-content: center; /*b*/
+            align-items: center; /*\\*/
+            background-color: black; /*y*/ 
+            color: green; /*h*/
+            font-size: 600%;/*f*/
             height: 100vh;
+        }
+        p
+        {
+            display: inline;
+            font-family: monospace;
+            font-weight: bold;
+        }
+        #cur{
+            animation: cursor 1s infinite;
+        }
+        @keyframes cursor {
+            from, to{color:transparent};
+            50% {color:green}
+        }
+    
         }
         p
         {
